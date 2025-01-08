@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0077b6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: #caf0f8;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+            width: 300px;
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .card h2 {
+            margin: 10px 0 5px;
+            font-size: 24px;
+            color: #03045e;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #023e8a;
+            margin-bottom: 15px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: white;
+            width: 35px;
+            height: 35px;
+            background-color: #0077b6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .actions button {
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .actions .subscribe {
+            background-color: #2d6a4f;
+        }
+
+        .actions .message {
+            background-color: #40916c;
+        }
+
+        .stats {
+            font-size: 14px;
+            color: #03045e;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="images/olivia.webp" alt="Profile Picture">
+        <h2>Olivia Rodrigo</h2>
+        <p>Full Stack Developer | Tech Enthusiast</p>
+        <div class="social-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-snapchat"></i>
+        </div>
+        <div class="actions">
+            <button class="subscribe">Subscribe</button>
+            <button class="message">Message</button>
+        </div>
+        <div class="stats">
+            <span>❤️ 60K</span>
+            <span>💬 20K</span>
+            <span>🔄 32K</span>
+        </div>
+    </div>
+</body>
+</html>
